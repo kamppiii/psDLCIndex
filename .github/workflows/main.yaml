@@ -21,7 +21,7 @@ jobs:
 
     - run: chmod +x PkgTool.Core && cp -r PkgTool.Core dist/linux/dlcIndex
 
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: dlcIndex-linux
         path: dist/linux
