@@ -33,7 +33,7 @@ jobs:
 
     - run: cp -r LibOrbisPkg.dll dist/windows/dlcIndex && cp -r PkgTool.exe dist/windows/dlcIndex
 
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v4
       with:
         name: dlcIndex-windows
         path: dist/windows
